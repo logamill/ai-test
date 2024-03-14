@@ -9,12 +9,12 @@ export default function GenerateText() {
 
   function handleTextUpdate(e) {
     setUserText(e.target.value);
-  }
+  };
+  
   function handleTextSubmit(e) {
     e.preventDefault();
     getTextFromOpenAI();
-
-  }
+  };
 
   function handleImgSubmit(e) {
     e.preventDefault();
